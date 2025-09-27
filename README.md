@@ -1,9 +1,13 @@
 # _MINI PROJECT_
 # Creating awareness towards nature and animals
 ### Technologies used 
-- HTML
-- CSS
-- Little bit Javascript
+- 1.	HTML → Structure and content
+- 2.	CSS → Styling and layout
+- 3.	JavaScript → Interactivity (poll voting)
+- 4.	Responsive Design → Mobile-friendly layout
+- 5.	Multimedia → Images and embedded videos
+- 6.	Forms → User input collection
+- 7.	Navigation & Anchors → Smooth scrolling between sections
 
 ### Features
 
