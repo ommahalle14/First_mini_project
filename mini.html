@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nature & Wildlife Awareness</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background-color: #eafbe7;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        nav {
+            background-color: #2e8b57;
+            padding: 15px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            background: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee') no-repeat center/cover;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.3em;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #2e8b57;
+            margin-bottom: 15px;
+        }
+
+        .highlight {
+            background-color: #fff;
+            border-left: 6px solid #2e8b57;
+            padding: 15px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        img,
+        iframe {
+            width: 100%;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        ul {
+            margin-left: 20px;
+            list-style-type: square;
+        }
+
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #2e8b57;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #256b45;
+        }
+
+        #pollResult p {
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #2e8b57;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#wildlife">Wildlife</a>
+        <a href="#feeding">Feeding</a>
+        <a href="#sea-reclamation">Sea</a>
+        <a href="#poll">Poll</a>
+        <a href="#video">Video</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <header>
+        <h1>Nature & Wildlife Awareness</h1>
+        <p>Protecting our planet starts with understanding its beauty and importance.</p>
+    </header>
+
+    <section id="about">
+        <h2>About Nature Conservation</h2>
+        <p>Nature conservation is about protecting natural environments and wildlife to ensure that future generations
+            can enjoy and benefit from them.</p>
+        <div class="highlight">
+            <strong>Wikipedia says:</strong><br>
+            Nature conservation focuses on maintaining biodiversity, protecting ecosystems, and ensuring the sustainable
+            use of natural resources.
+            <a href="https://en.wikipedia.org/wiki/Nature_conservation" target="_blank">Read more</a>
+        </div>
+        <img src="1638878208_climate-1.jpg" alt="Nature Image">
+    </section>
+
+    <section id="wildlife">
+        <h2>Why Wildlife Matters</h2>
+        <p>Wild animals help maintain balance in the environment. Each species plays a role in food chains, pollination,
+            and ecosystem health.</p>
+        <div class="highlight">
+            Wildlife conservation is crucial to preserve endangered species and ensure natural balance.
+            <a href="https://en.wikipedia.org/wiki/Wildlife_conservation" target="_blank">Read more</a>
+        </div>
+        <img src="./360_F_415790935_7va5lMHOmyhvAcdskXbSx7lDJUp0cfja.jpg" alt="Animal in Forest">
+    </section>
+
+    <section id="feeding">
+        <h2>Feeding Animals: Do it Responsibly</h2>
+        <p>Feeding animals, especially strays or birds, can be kind, but must be done with care. Wrong foods can harm
+            them, and overfeeding can make them dependent.</p>
+        <ul>
+            <li>Use proper food for each species (no bread for birds).</li>
+            <li>Feed only in clean places, away from roads.</li>
+            <li>Never leave plastic or wrappers.</li>
+            <li>Provide water during hot days.</li>
+        </ul>
+        <div class="highlight">
+            Responsible feeding promotes trust, safety, and health for both humans and animals.
+            <img src="./photo.webp">
+        </div>
+    </section>
+
+    <section id="sea-reclamation">
+        <h2>The Controversy of Sea Reclamation</h2>
+        <p>Sea reclamation — the act of creating new land from oceans or coastal regions — has become increasingly
+            common in urban development. However, these projects come with serious ecological consequences that cannot
+            be ignored.</p>
+        <img src="./2016_04_06_2460_1459910937._large.jpg">
+        <div class="highlight">
+            <strong>Environmental Impact:</strong>
+            <ul>
+                <li>Destroys marine biodiversity including fish, corals, and mangroves.</li>
+                <li>Displaces coastal communities and traditional fishermen.</li>
+                <li>Increases the risk of flooding and erosion in the long term.</li>
+                <li>Pollutes water bodies with debris and construction waste.</li>
+            </ul>
+        </div>
+
+        <p>It’s alarming how such projects often proceed despite public protests and environmental warnings. Governments
+            justify these actions in the name of development or tourism, but the irreversible harm to ecosystems is a
+            steep price to pay.</p>
+
+        <p><strong>How can we allow destruction of our seas in the name of progress?</strong> Environmental clearances
+            are sometimes given hastily, without proper impact assessments or public consent. Nature is not a commodity
+            — it's a legacy we must protect.</p>
+    </section>
+
+    <section id="poll">
+        <h2>What Do You Think About Sea Reclamation?</h2>
+        <p>Is it a good move for development or a harmful act against nature?</p>
+
+        <form id="pollForm">
+            <label>
+                <input type="radio" name="poll" value="good"> It's good for development
+            </label><br>
+            <label>
+                <input type="radio" name="poll" value="bad"> It's harmful to the environment
+            </label><br><br>
+            <button type="submit">Submit Vote</button>
+        </form>
+
+        <div id="pollResult" style="margin-top:20px;"></div>
+    </section>
+
+    <section id="video">
+        <h2>Watch: A Message from Nature</h2>
+        <iframe src="https://www.youtube.com/embed/WmVLcj-XKnM" allowfullscreen title="Nature Video"></iframe>
+    </section>
+
+    <section id="contact">
+        <h2>Send Us Your Feedback</h2>
+        <form>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2025 Nature Awareness Project | Created with love for Earth
+    </footer>
+
+    <script>
+        document.getElementById('pollForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const options = document.getElementsByName('poll');
+            let selected = null;
+
+            for (const option of options) {
+                if (option.checked) {
+                    selected = option.value;
+                    break;
+                }
+            }
+
+            const resultDiv = document.getElementById('pollResult');
+
+            if (selected === "good") {
+                resultDiv.innerHTML = `<p style="color:green;"><strong>You voted:</strong> It's good for development.</p>`;
+            } else if (selected === "bad") {
+                resultDiv.innerHTML = `<p style="color:red;"><strong>You voted:</strong> It's harmful to the environment.</p>`;
+            } else {
+                resultDiv.innerHTML = `<p style="color:orange;">Please select an option before voting.</p>`;
+            }
+        });
+    </script>
+
+</body>
+
+</html>
